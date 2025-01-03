@@ -1,0 +1,59 @@
+# Bazel outputs
+/bazel-*
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+.ijwb/
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Bazel symlinks
+/bazel-bin
+/bazel-out
+/bazel-testlogs
+/bazel-workspace
+
+# Bazel auto-generated files
+.bazeltargets
+.bazelrc.user
+
+# Log files
+*.log
+*.log.*
+log/
+logs/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Common backup files
+*~
+*.bak
+*.backup
+*.swp
+
+# Compilation database
+compile_commands.json
+external/
+
+# Generated protocol buffers
+*.pb.cc
+*.pb.h
+
+# Workspace generated files
+/WORKSPACE.resolved
